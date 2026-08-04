@@ -3,18 +3,16 @@ export default function AboutUs() {
     <section className="about-card">
       <h2>About Paradise Nursery</h2>
       <p>
-        Paradise Nursery helps plant lovers create healthier, more welcoming
-        homes with indoor plants that are beautiful, practical, and beginner
-        friendly.
+        Paradise Nursery is a small online plant shop. We sell indoor plants
+        for home and office spaces.
       </p>
       <p>
-        We curate resilient foliage, flowering favorites, and rare statement
-        plants so every customer can discover greenery that fits their space,
-        style, and care routine.
+        Our goal is to make plant shopping simple. Customers can look at
+        different plants, check prices, and add what they want to the cart.
       </p>
       <p>
-        Our mission is simple: make plant shopping feel inspiring, easy to
-        understand, and enjoyable from the first click to the final checkout.
+        We offer different types of plants, including easy-care plants and
+        decorative plants for beginners.
       </p>
     </section>
   );

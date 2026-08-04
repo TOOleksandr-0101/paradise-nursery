@@ -85,11 +85,10 @@ export default function ProductList() {
 
       <main className="catalog-page">
         <section className="page-intro">
-          <span className="eyebrow">Indoor plant catalog</span>
-          <h1>Find the right plant for every corner of your home</h1>
+          <span className="eyebrow">Plant Catalog</span>
+          <h1>Choose plants for your home</h1>
           <p>
-            Browse curated collections, compare prices, and add your favorites
-            to the cart with live updates.
+            Browse plants by category and add the ones you like to your cart.
           </p>
         </section>
 
@@ -97,7 +96,7 @@ export default function ProductList() {
           <section className="category-section" key={group.category}>
             <div className="section-heading">
               <h2>{group.category}</h2>
-              <p>{group.plants.length} carefully selected indoor plants</p>
+              <p>{group.plants.length} plants in this category</p>
             </div>
 
             <div className="product-grid">
@@ -111,8 +110,7 @@ export default function ProductList() {
                       <h3>{plant.name}</h3>
                       <p className="price-tag">${plant.price.toFixed(2)}</p>
                       <p className="product-copy">
-                        Healthy indoor greenery chosen for beauty, resilience,
-                        and easy styling at home.
+                        Indoor plant with a simple care routine.
                       </p>
                       <button
                         className="primary-button"
